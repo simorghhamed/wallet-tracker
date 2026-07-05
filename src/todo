@@ -1,0 +1,3 @@
+# Change wallet name component on userId need to hidde and on userToken need to fiex the bug 
+
+# Bug on unTrack wallet when visit first on wallet item page not watchlist page becuse get wallet trakced just fetch on whatch list

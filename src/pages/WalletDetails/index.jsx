@@ -1,0 +1,2 @@
+export {WalletDetails} from "./WalletDetails";
+

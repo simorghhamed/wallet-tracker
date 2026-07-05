@@ -1,0 +1,2 @@
+export {AboutUs } from "./AboutUs";
+

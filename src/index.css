@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Font Face Definitions - لود فونت‌ها */
+@font-face {
+  font-family: "Iranyekan Light";
+  src: url("../public/fonts/IRANYekanX/IRANYekanX-Light.ttf");
+}
+
+@font-face {
+  font-family: "Iranyekan Regular";
+  src: url("../public/fonts/IRANYekanX/IRANYekanX-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Iranyekan Medium";
+  src: url("../public/fonts/IRANYekanX/IRANYekanX-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Iranyekan DemiBold";
+  src: url("../public/fonts/IRANYekanX/IRANYekanX-DemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Iranyekan Bold";
+  src: url("../public/fonts/IRANYekanX/IRANYekanX-Bold.ttf");
+}
+
+/* Font Family Definitions */
+@theme {
+  --font-family-IranYekan-Light: "Iranyekan Light";
+  --font-family-IranYekan-Regular: "Iranyekan Regular";
+  --font-family-IranYekan-Medium: "Iranyekan Medium";
+  --font-family-IranYekan-DemiBold: "Iranyekan DemiBold";
+  --font-family-IranYekan-Bold: "Iranyekan Bold";
+  --color-custom-yellow: #EDFF7D;
+  --color-custom-green: #49F992;
+
+  /* Animation Definitions */
+  --animate-fadeIn: fadeIn 0.3s ease-in-out;
+  
+  /* Keyframes Definition */
+  --keyframes-fadeIn: {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  };
+}
+
+@custom-variant child (&>*);
+@custom-variant child-hover (&>*:hover);
+
+body {
+  background-color: #161616;
+}
