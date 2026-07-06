@@ -16,6 +16,11 @@ Wallet Tracker is a web app for following on-chain wallet activity without ownin
 
 It supports both signed-in users and guests: anyone can track a limited number of wallets without an account, while signing in (email or Google) unlocks favorites, priority ordering, and full search history. All data flows through a versioned backend (`/api/tracker/v1/...`) rather than the client talking to chain explorers directly, so wallet discovery, tracking limits, and notification registration are all server-owned concerns.
 
+## Screenshots
+
+![Dexlly Swap Interface](./docs/screenshots/main-page.png)
+*Hero section interface — wallet tracker , tracking and watching wallets*
+
 ## Key Features
 
 - **Multi-chain wallet search** — look up any address on Ethereum, BSC, or PulseChain and pull up its assets and activity.
